@@ -20,20 +20,20 @@ const VCard = () => {
       icon: <Instagram className="w-5 h-5" />,
       label: "Instagram",
       href: "https://www.instagram.com/w.a.interior.designer?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-      colorClass: "bg-instagram hover:bg-instagram/80",
+      colorClass: "bg-primary hover:bg-primary/80",
     },
 
     {
       icon: <Facebook className="w-5 h-5" />,
       label: "Facebook",
       href: "https://www.facebook.com/profile.php?id=61583187430887",
-      colorClass: "bg-facebook hover:bg-facebook/80",
+      colorClass: "bg-primary hover:bg-primary/80",
     },
     {
       icon: <MessageCircle className="w-5 h-5" />,
       label: "WhatsApp",
       href: "https://wa.me/53243559",
-      colorClass: "bg-whatsapp hover:bg-whatsapp/80",
+      colorClass: "bg-primary hover:bg-primary/80",
     },
   ];
 
