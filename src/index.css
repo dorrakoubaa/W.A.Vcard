@@ -6,51 +6,56 @@
 
 @layer base {
   :root {
-    --background: 220 20% 6%;
-    --foreground: 220 10% 95%;
+    /* Base: #a7b2a4 → HSL 140 8% 67% - Muted Sage Green */
+    --background: 140 6% 8%;
+    --foreground: 140 8% 92%;
 
-    --card: 220 20% 10%;
-    --card-foreground: 220 10% 95%;
+    --card: 140 6% 12%;
+    --card-foreground: 140 8% 92%;
 
-    --popover: 220 20% 10%;
-    --popover-foreground: 220 10% 95%;
+    --popover: 140 6% 12%;
+    --popover-foreground: 140 8% 92%;
 
-    --primary: 175 70% 50%;
-    --primary-foreground: 220 20% 6%;
+    /* Primary - Sage green */
+    --primary: 140 8% 67%;
+    --primary-foreground: 140 10% 10%;
 
-    --secondary: 220 15% 18%;
-    --secondary-foreground: 220 10% 85%;
+    /* Secondary - Darker sage */
+    --secondary: 140 6% 20%;
+    --secondary-foreground: 140 8% 85%;
 
-    --muted: 220 15% 15%;
-    --muted-foreground: 220 10% 60%;
+    /* Muted - Deep forest */
+    --muted: 140 6% 16%;
+    --muted-foreground: 140 6% 55%;
 
-    --accent: 175 70% 50%;
-    --accent-foreground: 220 20% 6%;
+    /* Accent - Warmer sage */
+    --accent: 120 10% 60%;
+    --accent-foreground: 140 10% 10%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 65% 50%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 220 15% 20%;
-    --input: 220 15% 20%;
-    --ring: 175 70% 50%;
+    --border: 140 6% 22%;
+    --input: 140 6% 22%;
+    --ring: 140 8% 67%;
 
     --radius: 1rem;
 
-    /* Custom colors */
-    --glow-primary: 175 70% 50%;
-    --facebook: 221 44% 41%;
-    --instagram: 340 75% 54%;
-    --whatsapp: 142 70% 45%;
+    /* Custom social colors - muted to match palette */
+    --glow-primary: 140 8% 67%;
+    --facebook: 210 30% 45%;
+    --instagram: 340 45% 55%;
+    --whatsapp: 140 35% 45%;
 
-    /* Gradients */
-    --gradient-bg: linear-gradient(135deg, hsl(220 25% 4%) 0%, hsl(220 20% 8%) 50%, hsl(240 20% 6%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(220 20% 12% / 0.8) 0%, hsl(220 20% 8% / 0.6) 100%);
+    /* Gradients - sage tones */
+    --gradient-bg: linear-gradient(135deg, hsl(140 8% 5%) 0%, hsl(140 6% 9%) 50%, hsl(150 8% 7%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(140 8% 14% / 0.8) 0%, hsl(140 6% 10% / 0.6) 100%);
     --gradient-glow: radial-gradient(ellipse at center, hsl(var(--primary) / 0.15) 0%, transparent 70%);
   }
 
   .dark {
-    --background: 220 20% 6%;
-    --foreground: 220 10% 95%;
+    --background: 140 6% 8%;
+    --foreground: 140 8% 92%;
   }
 }
 
