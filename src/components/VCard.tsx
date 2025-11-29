@@ -1,4 +1,4 @@
-import { Facebook, Instagram, MessageCircle } from "lucide-react";
+import { Facebook, Instagram, MessageCircle, MapPin } from "lucide-react";
 import profilePhoto from "@/assets/profile-placeholder.png";
 
 interface SocialLink {
@@ -12,6 +12,7 @@ const VCard = () => {
   // You can customize these values
   const name = "Your Name";
   const work = "Your Profession";
+  const location = "Your City, Country";
   const photoUrl = profilePhoto;
 
   const socialLinks: SocialLink[] = [
@@ -55,14 +56,18 @@ const VCard = () => {
         </div>
       </div>
 
-      {/* Name & Work */}
+      {/* Name & Work & Location */}
       <div className="text-center mb-8">
         <h1 className="text-2xl md:text-3xl font-semibold text-foreground mb-2 tracking-tight">
           {name}
         </h1>
-        <p className="text-muted-foreground text-sm md:text-base font-light tracking-wide">
+        <p className="text-muted-foreground text-sm md:text-base font-light tracking-wide mb-2">
           {work}
         </p>
+        <div className="flex items-center justify-center gap-1.5 text-muted-foreground/80 text-sm">
+          <MapPin className="w-4 h-4" />
+          <span>{location}</span>
+        </div>
       </div>
 
       {/* Social Links */}
