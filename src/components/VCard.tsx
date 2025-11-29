@@ -1,5 +1,5 @@
 import { Facebook, Instagram, MessageCircle, MapPin } from "lucide-react";
-import profilePhoto from "@/assets/profile-placeholder.png";
+import profilePhoto from "@/assets/Logo2.jpg";
 
 interface SocialLink {
   icon: React.ReactNode;
